@@ -20,7 +20,8 @@ packages:
   - luci-app-adguardhome
   - luci-app-omcproxy
   - luci-app-udpxy
-  - luci-app-mwan3
+  - dns2tcp
+  - redsocks2
   - adguardhome
   - luci-app-zerotier
   - luci-app-upnp
