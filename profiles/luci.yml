@@ -5,13 +5,52 @@ feeds:
   - name: glinet
     path: ../feeds_dir/glinet
 
+tools:
+  - upx
+  - ucl
+  
 packages:
   - luci
+  - wpad-openssl
   - luci-base
   - luci-mod-rpc
-  - wpad-openssl
-
+  - luci-compat
+  - luci-app-UUGameAcc
+  - luci-app-ssr-plus
+  - luci-app-adguardhome
+  - luci-app-omcproxy
+  - luci-app-udpxy
+  - luci-app-mwan3
+  - adguardhome
+  - luci-app-zerotier
+  - luci-app-upnp
+  - luci-app-aliddns
+  - luci-app-aliyundrive-webdav
+  - aliyundrive-webdav
+  - dns2socks
+  - microsocks
+  - pdnsd-alt
+  - tcping
+  - shadowsocksr-libev-ssr-check
+  - kcptun-client
+  - naiveproxy
+  - ipt2socks
+  - shadowsocks-libev-ss-local
+  - shadowsocks-libev-ss-redir
+  - shadowsocks-libev-ss-server
+  - shadowsocks-rust-sslocal
+  - shadowsocks-rust-ssserver
+  - shadowsocksr-libev-ssr-local
+  - shadowsocksr-libev-ssr-redir
+  - shadowsocksr-libev-ssr-server
+  - v2ray-plugin
+  - xray-core
+  - trojan
+  - simple-obfs
+  
 diffconfig: |
   CONFIG_LUCI_LANG_zh_Hans=y
+  CONFIG_PACKAGE_dnsmasq=n
+  CONFIG_PACKAGE_dnsmasq-full=y
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
