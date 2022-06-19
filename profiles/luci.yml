@@ -30,6 +30,8 @@ packages:
   - luci-app-aliddns
   - luci-app-aliyundrive-webdav
   - aliyundrive-webdav
+  - luci-app-aliyundrive-fuse
+  - aliyundrive-fuse
   - dns2socks
   - microsocks
   - pdnsd-alt
