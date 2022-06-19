@@ -9,7 +9,7 @@ packages:
   - luci-base
   - luci-mod-rpc
   - kmod-usb-storage
-  - kmod-usb-uhci
+  - kmod-usb-xhci
   - comgt
   - chat
   - uqmi
@@ -19,8 +19,7 @@ packages:
   - dosfstools
   - e2fsprogs
   - usbmuxd
-  - kmod-usb2
-  - kmod-usb-ohci
+  - kmod-usb3
   - kmod-usb-acm
   - kmod-usb-net-huawei-cdc-ncm
   - kmod-usb-serial
