@@ -14,8 +14,10 @@ packages:
   - wpad-openssl
   - luci-base
   - luci-mod-rpc
+  - luci-theme-argon
   - luci-compat
   - luci-app-UUGameAcc
+  - luci-app-ramfree
   - luci-app-ssr-plus
   - luci-app-adguardhome
   - luci-app-omcproxy
