@@ -2,7 +2,7 @@ repo: https://github.com/Telecominfraproject/wlan-ap.git
 branch: main
 git_clone_dir: wlan-ap
 openwrt_root_dir: wlan-ap/openwrt
-revision: c6e0384f2116abb28d5dbbdf95bd75e18c5df23a
+revision: d4442efbfee4f5d4da2827e334a22d7ec965a491
 
 patch_folders:
   - patches-wlan-ap-5.4
