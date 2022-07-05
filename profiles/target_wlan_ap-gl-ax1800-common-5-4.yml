@@ -8,8 +8,8 @@ feeds:
     uri: https://github.com/gl-inet/gl-feeds.git
     revision: c272de41d69a73a44ed9ddb6105a3b869a7bcf41
   - name: luci
-    uri: https://github.com/Lienol/openwrt-luci.git
-    revision: 0c8c742a2b2de18600fb9cb495ff163c76214001
+    uri: https://github.com/openwrt/luci.git
+    revision: ee5576f5e3f3623f75cb84fd9182756f41c97610
 
 include:
   - wifi-ax
